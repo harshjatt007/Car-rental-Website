@@ -1,134 +1,125 @@
-// import all images from assets/images directory
-import img01 from "../all-images/cars-img/nissan-offer.png";
-import img02 from "../all-images/cars-img/offer-toyota.png";
-import img03 from "../all-images/cars-img/bmw-offer.png";
-import img04 from "../all-images/cars-img/nissan-offer.png";
-import img05 from "../all-images/cars-img/offer-toyota.png";
-import img06 from "../all-images/cars-img/mercedes-offer.png";
-import img07 from "../all-images/cars-img/toyota-offer-2.png";
-import img08 from "../all-images/cars-img/mercedes-offer.png";
+import img01 from "../all-images/cars-img/swift-exterior-left-side-view-2.webp";
+import img02 from "../all-images/cars-img/OIP.jpeg";
+import img03 from "../all-images/cars-img/unnamed.jpg";
+import img04 from "../all-images/cars-img/download.jpeg";
+import img05 from "../all-images/cars-img/santro.jpeg";
+import img06 from "../all-images/cars-img/xuv.jpeg";
+import img07 from "../all-images/cars-img/dzire.jpg";
+import img08 from "../all-images/cars-img/creta.jpeg";
 
 const carData = [
   {
     id: 1,
-    brand: "Tesla",
+    brand: "Maruti Suzuki",
     rating: 112,
-    carName: "Tesla Malibu",
+    carName: "Maruti Suzuki Swift",
     imgUrl: img01,
-    model: "Model 3",
-    price: 5000,
-    speed: "20kmpl",
+    model: "Model 2021",
+    price: 1500,
+    mileage: "25.75 kmpl",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
     automatic: "Automatic",
-    description:
-    "Introducing the Tesla Malibu – where luxury meets sustainability. Cruise in style with our sleek electric vehicle, offering unparalleled comfort and cutting-edge technology. Experience the future of driving while enjoying the scenic views of Malibu. With 112 top ratings, rest assured you're in for an exceptional journey. Rent the Tesla Malibu today for just Rs 5000 per day and elevate your driving experience like never before."  },
-
+    type: "Petrol",
+    description: "The Maruti Suzuki Swift offers a perfect blend of performance and style with its sleek design and fuel-efficient engine. Enjoy a comfortable drive with advanced features like GPS Navigation and automatic transmission. Ideal for city commutes, rent this car today for just Rs 1500 per day."
+  },
   {
     id: 2,
-    brand: "Toyota",
+    brand: "Mahindra",
     rating: 102,
-    carName: "Toyota Aventador",
+    carName: "Mahindra Bolero",
     imgUrl: img02,
-    model: "Model-2022",
-    price: 4000,
-    speed: "20kmpl",
+    model: "Model 2018",
+    price: 2500,
+    mileage: "15.96 kmpl",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
-    description:
-    "Introducing the Toyota Aventador - a perfect blend of style, performance, and reliability. With a top rating of 102, this Model-2022 car offers unparalleled comfort and sophistication. Cruise through the city streets or embark on long journeys with ease, thanks to its impressive fuel efficiency of 20kmpl. Equipped with GPS navigation, heated seats, and automatic transmission, every drive is a pleasure. Rent the Toyota Aventador today for just Rs 4000 per day and experience driving at its finest."  },
-
+    automatic: "Manual",
+    type: "Diesel",
+    description: "The Mahindra Bolero is known for its ruggedness and reliability, perfect for both city driving and off-road adventures. Equipped with GPS Navigation, this manual transmission diesel vehicle ensures a powerful and secure ride. Rent it today for Rs 2500 per day."
+  },
   {
     id: 3,
-    brand: "BMW",
+    brand: "Hyundai",
     rating: 132,
-    carName: "BMW X3",
+    carName: "Hyundai Grand i10",
     imgUrl: img03,
-    model: "Model-2022",
-    price: 10000,
-    speed: "20kmpl",
+    model: "Model 2021",
+    price: 2000,
+    mileage: "20.7 kmpl",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
     automatic: "Automatic",
-    description:
-
-    "Meet the BMW X3 - where luxury meets performance in perfect harmony. With an impressive rating of 132, this Model-2022 car is designed to elevate your driving experience. Enjoy the perfect combination of power and efficiency, with a fuel economy of 20kmpl. Equipped with GPS navigation, heated seats, and automatic transmission, every journey is a breeze. Rent the BMW X3 today for just Rs1000 per day and indulge in the ultimate driving pleasure."  },
-
+    type: "Petrol",
+    description: "The Hyundai Grand i10 is a compact car that combines efficiency and comfort. With a high rating of 132, it features GPS Navigation and automatic transmission, making it an excellent choice for urban driving. Rent the Hyundai Grand i10 for Rs 2000 per day."
+  },
   {
     id: 4,
-    brand: "Nissan",
+    brand: "Maruti Suzuki",
     rating: 102,
-    carName: "Nissan Mercielago",
+    carName: "Maruti Suzuki Baleno",
     imgUrl: img04,
-    model: "Model-2022",
-    price: 7000,
-    speed: "20kmpl",
+    model: "Model 2024",
+    price: 2285,
+    mileage: "21.01 kmpl",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
     automatic: "Automatic",
-    description:
-    "Introducing the Nissan Mercielago - a blend of sophistication and performance. With a commendable rating of 102, this Model-2022 car promises a memorable driving experience. Enjoy its impressive fuel efficiency of 20kmpl while navigating with ease using GPS navigation. Relax in heated seats and embrace the convenience of automatic transmission. Rent the Nissan Mercielago today for just Rs 7000 per day and redefine your journey with style and comfort."  },
-
+    type: "Petrol",
+    description: "The Maruti Suzuki Baleno offers premium features and great fuel efficiency. This 2024 model comes with GPS Navigation and automatic transmission, making it perfect for those who seek a comfortable and stylish drive. Rent it today for Rs 2285 per day."
+  },
   {
     id: 5,
-    brand: "Ferrari",
+    brand: "Hyundai",
     rating: 94,
-    carName: "Ferrari Camry",
+    carName: "Hyundai Santro",
     imgUrl: img05,
-    model: "Model-2022",
-    price: 9000,
-    speed: "20kmpl",
+    model: "Model 2022",
+    price: 1632,
+    mileage: "20.3 kmpl",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
     automatic: "Automatic",
-    description:
-    "Introducing the Ferrari Camry - a fusion of elegance and exhilaration. With a rating of 94, this Model-2022 car delivers unmatched performance and style. Experience the thrill of the open road while enjoying a fuel efficiency of 20kmpl. Navigate effortlessly with GPS navigation and relax in heated seats with automatic transmission. Rent the Ferrari Camry today for just Rs 9000 per day and ignite your passion for driving."  },
-
+    type: "Petrol",
+    description: "The Hyundai Santro is a compact car with a reputation for reliability and efficiency. With features like GPS Navigation and automatic transmission, it is perfect for daily commutes. Rent the Hyundai Santro for Rs 1632 per day."
+  },
   {
     id: 6,
-    brand: "Mercedes",
+    brand: "Mahindra",
     rating: 119,
-    carName: "Mercedes Benz XC90",
+    carName: "Mahindra XUV500",
     imgUrl: img06,
-    model: "Model-2022",
-    price: 9500,
-    speed: "20kmpl",
+    model: "Model 2022",
+    price: 2600,
+    mileage: "15.1 kmpl",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
     automatic: "Automatic",
-    description:
-    "Experience luxury redefined with the Mercedes Benz XC90. Boasting a stellar rating of 119, this Model-2022 car combines elegance with unmatched performance. Enjoy seamless navigation with GPS, indulge in the comfort of heated seats, and breeze through every journey with automatic transmission. Rent the Mercedes Benz XC90 today for just Rs 9500 per day and elevate your driving experience to new heights."  },
-
+    type: "Diesel",
+    description: "The Mahindra XUV500 is a premium SUV that combines luxury and performance. With a robust rating of 119, it features GPS Navigation and automatic transmission, making it suitable for long journeys and city drives. Rent it today for Rs 2600 per day."
+  },
   {
     id: 7,
-    brand: "Audi",
+    brand: "Maruti Suzuki",
     rating: 82,
-    carName: "Audi Fiesta",
+    carName: "Maruti Suzuki Dzire",
     imgUrl: img07,
-    model: "Model 3",
-    price: 8000,
-    speed: "20kmpl",
+    model: "Model 2023",
+    price: 1940,
+    mileage: "24.12 kmpl",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
     automatic: "Automatic",
-    description:
-    "Introducing the Audi Fiesta - where style meets performance. With a rating of 82, this Model 3 car delivers an exhilarating driving experience. Cruise with confidence with GPS navigation, enjoy the comfort of heated seats, and effortlessly navigate every journey with automatic transmission. Rent the Audi Fiesta today for just Rs 8000 per day and turn every drive into an adventure."  },
-
+    type: "Petrol",
+    description: "The Maruti Suzuki Dzire is a popular sedan known for its efficiency and comfort. With GPS Navigation and automatic transmission, it offers a hassle-free driving experience. Rent the Dzire for Rs 1940 per day."
+  },
   {
     id: 8,
-    brand: "Colorado",
+    brand: "Hyundai",
     rating: 52,
-    carName: "Rolls Royce Colorado",
+    carName: "Hyundai Creta",
     imgUrl: img08,
-    model: "Model 3",
-    price: 6000,
-    speed: "20kmpl",
+    model: "Model 2023",
+    price: 2623,
+    mileage: "17.1 kmpl",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
     automatic: "Automatic",
-    description:
-    "Introducing the Rolls Royce Colorado - the epitome of luxury and refinement. With a rating of 52, this Model 3 car exudes elegance and sophistication. Navigate with ease using GPS navigation, relax in plush heated seats, and enjoy seamless driving with automatic transmission. Rent the Rolls Royce Colorado today for just Rs 6000 per day and indulge in the pinnacle of automotive excellence."  },
+    type: "Petrol",
+    description: "The Hyundai Creta is a compact SUV that offers a blend of style, performance, and comfort. With GPS Navigation and automatic transmission, it's designed for a smooth driving experience. Rent the Creta for Rs 2623 per day."
+  }
 ];
 
 export default carData;

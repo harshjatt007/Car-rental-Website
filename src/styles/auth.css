@@ -1,0 +1,15 @@
+.auth-container {
+    margin-top: 50px;
+  }
+  
+  .auth-container h2 {
+    margin-bottom: 30px;
+  }
+  
+  .auth-container form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
